@@ -1,0 +1,142 @@
+body {
+  background-color: RGB(243 243 243);
+}
+.header {
+  cursor: pointer;
+  font-size: 60px;
+}
+.header2 {
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  display: flex;
+}
+.a2 {
+  text-decoration: none;
+}
+.a1 {
+  margin: 10px 20px;
+  text-decoration: none;
+  background-color: rgb(255 255 255);
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.line-1 {
+  font-weight: bold;
+  position: relative;
+  top: 10%;
+  width: 23em;
+  margin: 80px auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 150%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 24em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(51, 50, 50, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+#myBtns {
+  float: right;
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(255 255 255); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtns:hover {
+  background-color: #ddd9d9; /* Add a dark-grey background on hover */
+}
+.main-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.container {
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  background-color: rgb(255 255 255);
+  color: black;
+  width: 250px;
+  height: 300px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.container2 {
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  background-color: rgb(255 255 255);
+  color: black;
+  margin: 10px;
+  width: 250px;
+  height: 300px;
+  text-align: center;
+  border-radius: 10px;
+}
+.container3 {
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  background-color: rgb(255 255 255);
+  color: black;
+  margin: 10px;
+  width: 250px;
+  height: 300px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.s {
+  background-color: rgb(70, 68, 68);
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  font-size: 15px;
+}
+.s1 {
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  font-size: 12px;
+}
+p {
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  font-size: 14px;
+}
